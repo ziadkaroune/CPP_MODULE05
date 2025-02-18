@@ -8,10 +8,7 @@ int main()
  
   
     Bureaucrat ap("ceo", 10);  
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
+ 
     
     AForm *l = new AForm("insurance", 100, 10);    
 

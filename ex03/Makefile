@@ -1,5 +1,5 @@
 NAME	=	Intern
-CC		=	c++
+CC		=	c++ -g
 SRCS	=	main.cpp	Bureaucrat.cpp	AForm.cpp	PresidentialPardonForm.cpp	RobotomyRequestForm.cpp ShrubberyCreationForm.cpp	Intern.cpp
 OBJS	=	$(SRCS:.cpp=.o)
 RM		=	rm -f
