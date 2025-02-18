@@ -39,9 +39,6 @@
         "tuple": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "algorithm": "cpp",
-        "fstream": "cpp",
-        "iomanip": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
+        "algorithm": "cpp"
+    }
 }

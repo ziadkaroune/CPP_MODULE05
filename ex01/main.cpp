@@ -58,8 +58,7 @@ int main()
     Form *p= new Form("insurance", 103, 10);    
 
     try {
-       ap.signForm(*p); 
-        std::cout << p->getName() << p->is_signed()<<std::endl;
+       ap.signForm(*p);     ///  change the message
     }       
     catch( Bureaucrat::GradeTooLowException &e) {
         std::cerr << ap.getName() << "  couldn’t sign " << p->getName() << ": " << e.what()  << std::endl;
@@ -68,10 +67,6 @@ int main()
     delete p;
 
     std::cout << "-------------------------------------" << std::endl;      
-
-
-
- 
 
     return 0;
 }
